@@ -73,7 +73,7 @@ public class GameTest {
         userInputMock.provideText("2");
         game.playerVsComputer();
         assertThat(consoleLog.getLog(), anyOf(containsString("won"),
-                containsString("lost"), containsString("tie")));
+                containsString("lost"), containsString("Tie")));
 
     }
 
